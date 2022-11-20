@@ -1,23 +1,36 @@
 export type Goal = {
   name: string,
-  symbol: string;
+  tick: string,
   objective: string;
   keyResult: number;
-  unit: number;
-  multipleHabits: Habit[]
+  unit: string;
+  habits: Habit[]
 }
 
 export type Habit = {
   name: string,
+  description: string,
   frequency: Frequency,
-  scores: number[],
+  scores?: Score[],
 }
 
-enum Frequency {
-  Hourly,
-  Daily,
-  Weekly,
-  Monthly,
-  Quarterly,
-  Yearly
+export type Score = {
+  date: Date,
+  value: number
 }
+
+export enum Frequency {
+  DAILY,
+  WEEKLY,
+  MONTLHLY,
+  QUARTERLY,
+  YEARLY
+}
+
+export enum Progress {
+  NONE,
+  SMALL,
+  MEDIUM,
+  GOOD
+}
+
