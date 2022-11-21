@@ -11,7 +11,7 @@ export type Habit = {
   name: string,
   description: string,
   frequency: Frequency,
-  scores?: Score[],
+  scores?: number[], // TODO - Use Score[] instead
 }
 
 export type Score = {
@@ -22,7 +22,7 @@ export type Score = {
 export enum Frequency {
   DAILY,
   WEEKLY,
-  MONTLHLY,
+  MONTHLY,
   QUARTERLY,
   YEARLY
 }

@@ -1,6 +1,7 @@
-import { Frequency, Goal, Habit } from '../types/types'
+import { Frequency, Goal } from '../types/types'
+import { Score } from '../types/types'
 
-export const goals:Goal[] = [
+export const goalsData:Goal[] = [
   {
     name: '6pack',
     tick: '6PK',
@@ -12,19 +13,19 @@ export const goals:Goal[] = [
         name: 'Cardio',
         description: '1h of cardio exercise everyday',
         frequency: Frequency.DAILY,
-        scores: []
+        scores: [1, 0, 3, 2, 1]
       },
       {
         name: 'Muscle Strength',
         description: '3x4x12 reps of strength exercises',
         frequency: Frequency.DAILY,
-        scores: []
+        scores: [3, 3, 3, 2, 1]
       },
       {
         name: 'Nutrition',
         description: '500 calories of daily deficit',
         frequency: Frequency.DAILY,
-        scores: []
+        scores: [0, 0, 0, 0, 0]
       },
     ]
   },
@@ -39,7 +40,7 @@ export const goals:Goal[] = [
         name: 'Investing',
         description: 'R$1000 invested monthly',
         frequency: Frequency.MONTHLY,
-        scores: []
+        scores: [1, 1, 1, 2, 3]
       }
     ]
   }

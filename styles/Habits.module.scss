@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.goal {
+  margin: 4px 12px;
+  padding: 4px;
+  box-shadow: 1px 1px 3px gray;
+}
+
+.habit {
+  margin: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
+  p {
+    margin-right: 8px;
+  }
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+
+  * {
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border-radius: 2px;
+  }
+}
+
+.score0 {
+  background-color: white;
+  color: white;   
+}
+
+.score1 {
+  background-color: tomato;
+  color: tomato;   
+}
+
+.score2 {
+  background-color: gold;
+  color: gold;   
+}
+
+.score3 {
+  background-color: forestgreen;
+  color: forestgreen;   
+}
