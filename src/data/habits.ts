@@ -1,5 +1,4 @@
 import { Frequency, Goal } from '../types/types'
-import { Score } from '../types/types'
 
 export const goalsData:Goal[] = [
   {
