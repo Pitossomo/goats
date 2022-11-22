@@ -18,6 +18,9 @@ A personal habit and goal tracker based on OKRs 🎯📈
   - a goal (optional - some habits might be unassociated with goals)  
 
 ## History
+- 22/nov/2022
+  - Created basic page for Habits Review and Today Tasks, refactored & reestructured project 
+  - TODO next: Create Goals review page, improve Today page 
 
 - 19/nov/2022
   - Created repo with basic requirements description

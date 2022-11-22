@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '../styles/Habits.module.scss'
 import { goalsData } from '../data/habits'
 import Wrapper from '../Components/Wrapper/Wrapper'
@@ -13,7 +12,7 @@ export default function Habits() {
           <h2>{goalData.name}</h2>
           {
             goalData.habits.map(habit => (
-              <HabitReview name={habit.name} scores={habit.scores} />
+              <HabitReview key={habit.name} name={habit.name} scores={habit.scores} />
             ))
           }
         </div>

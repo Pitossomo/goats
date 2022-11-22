@@ -1,4 +1,4 @@
-import styles from './HabitsReview.module.scss'
+import styles from './HabitReview.module.scss'
 
 type HabitReviewProps = {
   name: string,

@@ -1,6 +1,6 @@
 import Head from "next/head"
 import { ReactNode } from "react"
-import styles from './Wrapper.module.css'
+import styles from './Wrapper.module.scss'
 
 type WrapperProps = {
   title: string,
