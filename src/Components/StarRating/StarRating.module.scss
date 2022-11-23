@@ -1,0 +1,19 @@
+.starRating {
+  display: flex;
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+
+.on {
+  color: gold;
+}
+
+.off {
+  color: white;
+  -webkit-text-stroke: 1px lightgray;
+}
