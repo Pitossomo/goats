@@ -1,6 +1,8 @@
+import Link from "next/link";
 import HabitToday from "../Components/HabitToday/HabitToday";
 import Wrapper from "../Components/Wrapper/Wrapper";
 import { goalsData } from '../data/habits'
+import Habits from "./habits";
 
 export default function Today() {
   return (
@@ -17,6 +19,7 @@ export default function Today() {
           ))
         ))
       }
+      
     </Wrapper>
   )
 }

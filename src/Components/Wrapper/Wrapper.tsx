@@ -1,5 +1,6 @@
 import Head from "next/head"
 import { ReactNode } from "react"
+import NavBar from "../NavBar/NavBar"
 import styles from './Wrapper.module.scss'
 
 type WrapperProps = {
@@ -13,6 +14,7 @@ export default function Wrapper({title, children}: WrapperProps) {
       <Head>
         <title>Goats{title ? ` | ${title}` : ''}</title>
       </Head>
+      <NavBar current={title} />
       <div className={styles.wrapper}>
         { children }
       </div>
