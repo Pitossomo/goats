@@ -6,7 +6,6 @@ import HabitReview from '../Components/HabitReview/HabitReview'
 export default function Habits() {
   return (
     <Wrapper title='Habits'>
-      <h1>Habits</h1>
       { goalsData.map(goalData => (
         <div className={styles.goal} key={goalData.tick}>
           <h2>{goalData.name}</h2>

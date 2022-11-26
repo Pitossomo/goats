@@ -7,7 +7,6 @@ import Habits from "./habits";
 export default function Today() {
   return (
     <Wrapper title='Today'>
-      <h1>To do Today</h1>
       {
         goalsData.flatMap(goal => (
           goal.habits.map(habit => (
@@ -19,7 +18,6 @@ export default function Today() {
           ))
         ))
       }
-      
     </Wrapper>
   )
 }
