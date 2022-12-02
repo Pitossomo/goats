@@ -1,7 +1,7 @@
 import styles from '../styles/Habits.module.scss'
 import { goalsData } from '../data/habits'
-import Wrapper from '../Components/Wrapper/Wrapper'
-import HabitReview from '../Components/HabitReview/HabitReview'
+import Wrapper from '../components/Wrapper/Wrapper'
+import HabitReview from '../components/HabitReview/HabitReview'
 
 export default function Habits() {
   return (

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from './NavBar.module.scss' 
-import hamburger from '../../assets/icons/hamburger.svg'
+import hamburger from '../../public/assets/icons/hamburger.svg'
 import Image from 'next/image'
 import { useState } from 'react'
 
